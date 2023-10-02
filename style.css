@@ -32,6 +32,7 @@ ul {
     text-align: center;
     
     
+    
 }
 
 
@@ -42,8 +43,6 @@ li {
     border: 1px solid rgb(75, 176, 75);
     background-color: rgb(75, 176, 75);
     border-radius: 9px;
-    
-    
     padding: 10px;
     
 }
@@ -68,7 +67,7 @@ section > article {
 }
 
 article + article {
-    background-color: rgb(75, 176, 75)t;
+    background-color: rgb(75, 176, 75);
     border: 1px solid rgb(75, 176, 75);
     border-radius: 14px;
     margin : 1em;
