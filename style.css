@@ -27,7 +27,7 @@ nav {
 
 }
 
-ul {
+ nav > ul {
     list-style: none;
     text-align: center;
     
@@ -36,7 +36,7 @@ ul {
 }
 
 
-li {
+ nav > ul> li {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -105,4 +105,37 @@ aside > address {
     margin: 1em;
     padding: 1em;
     text-align: center;
+}
+
+
+
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.ImagePaire {
+    display : flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin : 0 1em ;
+
+
+}
+
+.ImagePasPaire {
+    display : flex;
+    justify-content: flex-end;
+    flex-direction:row;
+    align-items: flex-end;
+    margin : 0 1em;
+
+}
+
+
+
+figcaption {
+    margin: 0.5em;
+    
 }
