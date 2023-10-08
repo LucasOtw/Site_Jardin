@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(180, 202, 129);
+    background-color: rgb(180, 202, 129);     /* Police apple pour le test */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 header {
@@ -14,9 +16,23 @@ header {
 
 
 .logo {
-    width : 110px;
+    width : 160px;
     height : auto;
+    margin-top: 1em;
 }
+
+h1{
+    background: url(Ressources/images/ile-de-batz.jpg) no-repeat ;
+    color: #1f8A70;
+    font-size: 4em;
+    width: 16em;
+    height: 4em;
+    margin-left: 6em;
+    margin-top: 1em;
+    text-align: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+} 
 
 nav {
     background-color: rgb(180, 202, 129);
@@ -159,3 +175,9 @@ footer + aside + aside {
 .special-li {
     list-style-type: none;
 }
+
+footer > h2 + ul {                    
+    text-align: center;
+    align-items: center;
+}
+
